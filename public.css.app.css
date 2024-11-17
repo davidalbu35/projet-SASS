@@ -158,10 +158,12 @@ body {
 .navbar h1, .navbar .h1 {
   color: white;
   font-size: 1.5em;
+  margin-left: 2em;
 }
 .navbar nav ul {
   display: flex;
   gap: 2em;
+  margin-right: 2em;
 }
 .navbar nav ul li {
   color: white;
@@ -169,6 +171,179 @@ body {
   list-style: none;
   margin-top: 1em;
 }
+
+
+
+
+@media (max-width:576px){
+  body{
+    width: 400%;
+  }
+
+  .navbar{
+    height: 13em;
+  }
+
+  .navbar h1{
+    font-size: 4em;
+  }
+
+  .navbar nav ul li {
+    font-size: 2em;
+  }
+
+  .fond_beige p{
+    font-size: 3em;
+  }
+
+  .fond_beige{
+    height: 30em;
+  }
+  .div_logo{
+    display: flex;
+    
+    height: 190em;
+    flex-direction: column;
+    margin-top: 5em;
+  }
+  .div_logo div{
+    width: 50em;
+    height: 50em;
+  }
+
+  .div_logo div object{
+    height: 10em;
+  }
+
+  .div_logo div h3{
+    font-size: 5em;
+  }
+
+  .div_logo div p{
+    font-size: 2em;
+  }
+
+  .div_logo div span{
+    font-size: 3em;
+  }
+
+  .text-image{
+    
+    margin-left: 0;
+    flex-direction: column;
+  }
+  .text-image .enfant_p,p,h3{
+    text-align: center;
+    font-size: 2em;
+  }
+
+  .text-image  .h3{
+    
+    font-size: 5em;
+  }
+
+  .text-image div button{
+    margin-left: 26em;
+    padding: 2em;
+    font-size: 1.4em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+  }
+
+
+  .global {
+    
+    flex-direction: column;
+    margin-left: 0em;
+  }
+
+  .text-image .global{
+    margin-left: 0;
+  }
+
+  .text-image .card h3{
+    font-size: 3em;
+  }
+
+  .text-image .card .paragraphe{
+    font-size: 3em;
+  }
+ 
+  .footer{
+    height: 30em;
+  }
+
+  .footer h2{
+    font-size: 5em;
+  }
+
+  .footer p{
+    font-size: 3em;
+  }
+
+  .copyright{
+    height: 10em;
+  }
+
+  .copyright p{
+    font-size: 2em;
+  }
+}
+
+
+@media (min-width:576px) and (max-width:768px) {
+  .navbar{
+    width: 96em;
+  }
+ 
+  .image img{
+    width: 96em;
+  }
+
+  .fond_beige{
+    width: 96em;
+  }
+  .div_logo{
+    width: 96em;
+    
+    
+  }
+
+  .text-image{
+    width: 96em;
+    margin: 0;
+    margin-top: 5em;
+  }
+  
+  .text-image .global{
+    margin-left: 14em;
+  }
+  .text-image div{
+    margin-left: 3em;
+  }
+
+  .footer{
+    width: 96em;
+  }
+
+  .footer h2{
+    font-size: 3em;
+  }
+
+  .footer p{
+    font-size:1.5em;
+  }
+
+  .copyright{
+    width: 96em;
+  }
+
+  .copyright p{
+    font-size: 1em;
+  }
+  
+}
+
 
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
